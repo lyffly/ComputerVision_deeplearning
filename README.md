@@ -20,12 +20,13 @@ Mask-RCNN
 CornerNet  
 [CornerNet论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/CornerNet/cornerNet.pdf)  
 
-CenterNet
-[CornerNet论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/CenterNet/ObjectsAsPoints.pdf)  
+CenterNet  
+[CenterNet论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/CenterNet/ObjectsAsPoints.pdf)  
 
 
-### 2. 3D 
+### 2. 3D  
 
-
+SSD-6D   
+[SSD-6D论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/SSD-6D/SSD-6D.pdf)
 
 
