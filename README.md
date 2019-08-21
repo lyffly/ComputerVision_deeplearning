@@ -21,7 +21,7 @@ CornerNet
 [CornerNet论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/CornerNet/cornerNet.pdf)  
 
 CenterNet
-[CornerNet论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/CenterNet/objects as points.pdf)  
+[CornerNet论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/CenterNet/ObjectsAsPoints.pdf)  
 
 
 ### 2. 3D 
