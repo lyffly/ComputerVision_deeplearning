@@ -8,12 +8,12 @@ class BBoxUtility(object):
     """Utility class to do some stuff with bounding boxes and priors.
 
     # Arguments
-        num_classes: Number of classes including background.
+        num_classes: Number of classes including background. 种类加上背景
         priors: Priors and variances, numpy tensor of shape (num_priors, 8),
             priors[i] = [xmin, ymin, xmax, ymax, varxc, varyc, varw, varh].
-        overlap_threshold: Threshold to assign box to a prior.
-        nms_thresh: Nms threshold.
-        top_k: Number of total bboxes to be kept per image after nms step.
+        overlap_threshold: Threshold to assign box to a prior.交集的阈值
+        nms_thresh: Nms threshold. NMS阈值
+        top_k: Number of total bboxes to be kept per image after nms step.保留的框数量
 
     # References
         https://arxiv.org/abs/1512.02325
@@ -57,27 +57,27 @@ class BBoxUtility(object):
                                                 iou_threshold=self._nms_thresh)
 
     def iou(self, box):
-        """Compute intersection over union for the box with all priors.
+        """Compute intersection over union for the box with all priors.计算交并比
 
         # Arguments
-            box: Box, numpy tensor of shape (4,).
+            box: Box, numpy tensor of shape (4,).4x1的矩阵
 
         # Return
             iou: Intersection over union,
                 numpy tensor of shape (num_priors).
         """
-        # compute intersection
+        # compute intersection 计算交集
         inter_upleft = np.maximum(self.priors[:, :2], box[:2])
         inter_botright = np.minimum(self.priors[:, 2:4], box[2:])
         inter_wh = inter_botright - inter_upleft
         inter_wh = np.maximum(inter_wh, 0)
         inter = inter_wh[:, 0] * inter_wh[:, 1]
-        # compute union
+        # compute union 计算并集
         area_pred = (box[2] - box[0]) * (box[3] - box[1])
         area_gt = (self.priors[:, 2] - self.priors[:, 0])
         area_gt *= (self.priors[:, 3] - self.priors[:, 1])
         union = area_pred + area_gt - inter
-        # compute iou
+        # compute iou 计算交并比
         iou = inter / union
         return iou
 
