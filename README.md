@@ -1,4 +1,7 @@
+整理：刘云飞
+
 ## Object Detection  
+
 ### 1. 2D  
 #### YOLO系列  YOLO3  
 
@@ -58,7 +61,7 @@ Github 代码:  Pytorch  https://github.com/xingyizhou/CenterNet
 
 论文：[SSD-6D论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/SSD-6D/SSD-6D.pdf)
 
-
+  
 
 ## Object Segmentation
 
@@ -79,4 +82,18 @@ Github 代码:  Pytorch   https://github.com/milesial/Pytorch-UNet
 Github 代码：keras    https://github.com/matterport/Mask_RCNN
 
 Github 代码:  Pytorch   https://github.com/multimodallearning/pytorch-mask-rcnn
+
+
+
+## Human KeyPoints
+
+#### 1.RMPE
+
+论文：[RMPE](Human_Keypoints/RMPE.pdf)  
+
+ 
+
+#### 2.OpenPose
+
+论文：[OpenPose](Human_Keypoints/OpenPose.pdf)  
 
