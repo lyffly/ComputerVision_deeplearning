@@ -61,6 +61,8 @@ Github 代码:  Pytorch  https://github.com/xingyizhou/CenterNet
 
 论文：[SSD-6D论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/SSD-6D/SSD-6D.pdf)
 
+Github: https://github.com/wadimkehl/ssd-6d
+
   
 
 ## Object Segmentation
@@ -91,9 +93,22 @@ Github 代码:  Pytorch   https://github.com/multimodallearning/pytorch-mask-rcn
 
 论文：[RMPE](Human_Keypoints/RMPE.pdf)  
 
- 
+Github：https://github.com/MVIG-SJTU/RMPE
+
+Github (upgrade): https://github.com/MVIG-SJTU/AlphaPose
+
+
 
 #### 2.OpenPose
 
 论文：[OpenPose](Human_Keypoints/OpenPose.pdf)  
 
+Github ：https://github.com/CMU-Perceptual-Computing-Lab/openpose
+
+Github train：https://github.com/CMU-Perceptual-Computing-Lab/openpose_train
+
+
+
+#### 3.HourGlass
+
+论文：[hourglass](Human_Keypoints/hourglassNetwork.pdf) 
