@@ -1,10 +1,28 @@
-整理：刘云飞
+##### 整理和编码：刘云飞
 
-## 一、本人复现的论文和自制数据集
+建议与合作联系邮箱：[liuyunfei.1314@163.com](mailto:liuyunfei.1314@163.com)
 
-YOLO-v3
+## 一、复现的论文和自制数据集
 
+#### 1. YOLO-v3 目标检测：
 
+https://github.com/lyffly/YOLOv3_with_my_Dataset
+
+#### 2. Keypoints 关键点检测：
+
+https://github.com/lyffly/KeyPointsDetection
+
+#### 3. CornerNet 目标检测：
+
+https://github.com/lyffly/CornerNet-chs
+
+#### 4.语义分割：
+
+https://github.com/lyffly/Segmentation_with_my_dataset
+
+#### 5.3D视觉和RGBD：
+
+https://github.com/lyffly/Python-3DPointCloud-and-RGBD
 
 
 
