@@ -40,8 +40,8 @@ https://github.com/lyffly/Python-3DPointCloud-and-RGBD
 
 ## Object Detection 目标检测
 
-### 1. 2D  object detection
-#### YOLO系列  YOLO3  
+### 第一类：2D  object detection
+#### 1. YOLO系列  YOLO3  
 
 网站：https://pjreddie.com/darknet/yolo/  
 
@@ -53,7 +53,7 @@ Github 代码:  Pytorch https://github.com/eriklindernoren/PyTorch-YOLOv3
 
 
 
-#### SSD   
+#### 2. SSD   
 
 论文：[SSD论文](object_detection/SSD.pdf)  
 
@@ -63,19 +63,19 @@ Github 代码：keras  https://github.com/pierluigiferrari/ssd_keras
 
 
 
-#### RCNN系列代表： Faster-RCNN   
+#### 3. RCNN系列代表： Faster-RCNN   
 
 论文：[Faster-RCNN论文](object_detection/FasterRCNN.pdf)  
 
 
 
-#### Mask-RCNN   
+#### 4. Mask-RCNN   
 
 论文：[MaskRCNN论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/Mask-RCNN/Mask-RCNN.pdf)  
 
 
 
-#### CornerNet
+#### 5. CornerNet
 
 论文： [CornerNet论文](object_detectioncornerNet.pdf)  
 
@@ -83,7 +83,7 @@ Github 代码:  Pytorch   https://github.com/princeton-vl/CornerNet
 
 
 
-#### CenterNet  
+#### 6. CenterNet  
 
 论文：[CenterNet论文](object_detectionObjectsAsPoints.pdf)  
 
@@ -93,17 +93,19 @@ Github 代码:  Pytorch  https://github.com/xingyizhou/CenterNet
 
 
 
-### 2. 3D  object detection
+### 第二类  3D  object detection
 
-#### SSD-6D 
+#### 1. SSD-6D 
 
 论文：  [SSD-6D论文](https://github.com/lyffly/ComputerVision_deeplearning/blob/master/SSD-6D/SSD-6D.pdf)
 
 Github: https://github.com/wadimkehl/ssd-6d
 
-PointNet /PointNet++
+#### 2. PointNet /PointNet++
 
-Point RCNN
+
+
+#### 3. Point RCNN
 
 
 
@@ -154,3 +156,11 @@ Github train：https://github.com/CMU-Perceptual-Computing-Lab/openpose_train
 #### 3.HourGlass
 
 论文：  [hourglass](Human_Keypoints/hourglassNetwork.pdf) 
+
+## Face Recognition 人脸识别
+
+#### 1.deepface
+
+#### 2.Arcface
+
+#### 3.rentinaface
