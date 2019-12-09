@@ -8,13 +8,13 @@
 
 具体实现链接：https://github.com/lyffly/YOLOv3_with_my_Dataset
 
-![](https://wx1.sinaimg.cn/mw690/751f29f3gy1g9kebp5hs4j20h40h0tgp.jpg)
+![](readme_images/yolov3_result.png)
 
 #### 2. Keypoints 关键点检测：
 
 具体实现链接：https://github.com/lyffly/KeyPointsDetection
 
-![](https://wx1.sinaimg.cn/mw690/751f29f3gy1g9kebsnohvj20zj0g6mzh.jpg)
+![](readme_images/keypoints.png)
 
 #### 3.  CornerNet 目标检测：
 
@@ -26,7 +26,7 @@
 
 具体实现链接：https://github.com/lyffly/Segmentation_with_my_dataset
 
-![](https://wx1.sinaimg.cn/mw690/751f29f3gy1g9kebwhsmuj20wr0hvwpt.jpg)
+![](readme_images/segmentation.png)
 
 #### 5. 3D视觉和RGBD：
 
@@ -49,11 +49,11 @@
 ## Object Detection 目标检测
 
 ### 第一类：2D  object detection
-#### 1. YOLO系列  YOLO3  
+#### 1. YOLO系列  YOLO3
 
-网站：https://pjreddie.com/darknet/yolo/  
+网站：https://pjreddie.com/darknet/yolo/ 
 
-论文 ： [YOLO3论文](object_detection/YOLOv3.pdf)  
+论文 ： [YOLO3论文](object_detection/YOLOv3.pdf) 
 
 Github 代码：keras   https://github.com/qqwweee/keras-yolo3
 
