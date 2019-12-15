@@ -50,7 +50,9 @@
 
 #### 1. AI研习社  肺炎X光病灶识别 
 
-暂时第二名（2019-12-14）
+暂时排第二名（2019-12-15）
+
+网址: https://god.yanxishe.com/18
 
 ![](readme_images/2rd.png)
 
